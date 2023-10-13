@@ -1,0 +1,21 @@
+{
+  "name": "wikiapi",
+  "title": "WikiaPI",
+  "version": "1.0.0",
+  "description": "WikiaPI es una herramienta valiosa y versátil que pone el vasto conocimiento de Wikipedia al alcance de tus dedos en cuatro idiomas principales: español, inglés, francés y alemán. Esta aplicación ha sido diseñada para facilitar la obtención rápida y precisa de información relevante de Wikipedia sin la necesidad de navegar por el sitio web de Wikipedia.",
+  "main": "wikiapi.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devlwte/wikiapi.git"
+  },
+  "server": {
+    "pathviews": "views",
+    "pathpublic": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "devlwte",
+  "license": "ISC"
+}

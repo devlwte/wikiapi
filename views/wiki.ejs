@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= pak.title %> | Inicio
+    </title>
+    <!-- Iconos -->
+    <link rel="stylesheet" href="/lib/icomoon/icomoon.css">
+
+    <!-- Roboto -->
+    <link rel="stylesheet" href="/lib/roboto/roboto.css">
+
+    <!-- Materializecss -->
+    <link rel="stylesheet" href="/lib/materialize/css/materialize.min.css">
+
+    <!-- css wiki -->
+    <link rel="stylesheet" href="/css/wiki.css">
+</head>
+
+<div class="container-form">
+    <div class="form-search">
+        <div class="form-body">
+            <div class="container container-input-search">
+                <div class="pos-pe">
+                    <div class="center-flex">
+                        <h4 class="title-search">Search | WikiaPI</h4>
+                        <div class="input-elm">
+                            <input type="text" placeholder="Nombre, titulo o palabras claves" id="text-search" onkeyup="setSearch(event)" spellcheck="false">
+                            <div class="is-lang lang-es">Es</div>
+                            <div class="btn-search" onclick="setSearch(event)">
+                                <div class="icono-search icon-search"></div>
+                                <div class="preloader-search hide">
+                                    <div class="preloader-wrapper small active">
+                                        <div class="spinner-layer spinner-red-only">
+                                            <div class="circle-clipper left">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <div class="gap-patch">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <div class="circle-clipper right">
+                                                <div class="circle"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lang-search">
+                    <div class="all-lang">
+                        <div class="lang-select lang-en tooltipped" data-position="bottom" data-tooltip="English" data-lang="en">
+                            <span class="text-lang">En</span>
+                        </div>
+                    </div>
+                    <div class="all-lang">
+                        <div class="lang-select lang-es tooltipped" data-position="bottom" data-tooltip="Español" data-lang="es">
+                            <span class="text-lang">Es</span>
+                        </div>
+                    </div>
+                    <div class="all-lang">
+                        <div class="lang-select lang-fr tooltipped" data-position="bottom" data-tooltip="Français" data-lang="fr">
+                            <span class="text-lang">Fr</span>
+                        </div>
+                    </div>
+                    <div class="all-lang">
+                        <div class="lang-select lang-de tooltipped" data-position="bottom" data-tooltip="Deutsch" data-lang="de">
+                            <span class="text-lang">De</span>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!-- results -->
+                <div class="show-all-results">
+                    <div class="results-all">
+                        <div class="result-art">
+                            <div class="icono-name-page">
+                                <div class="icono-art"></div>
+                                <div class="info-name-page">
+                                    <div class="name-art">Wikipedia</div>
+                                    <div class="url-art">https://es.wikipedia.org/wiki/Minecraft</div>
+                                </div>
+                            </div>
+                            <div class="all-data">
+                                <div class="title-art">Minecraft:</div>
+                                <div class="dcp-art">
+                                    Minecraft es un videojuego de construcción de tipo «mundo abierto» o en inglés
+                                    sandbox
+                                    creado originalmente por el sueco Markus Persson (conocido comúnmente como «Notch»),
+                                    que
+                                    creo posteriormente Mojang Studios (actualmente parte de Microsoft).
+                                </div>
+                                <div class="title-art-id">ID: <span class="id-art">578555</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pagination-wiki">
+                        <div class="left-page modify-page page-click" data-type="back">
+                            <i class="icon-keyboard_arrow_left"></i>
+                        </div>
+                        <div class="center-page modify-page">
+                            <span class="select-page page-active">0</span>
+                            <span class="divide-page">/</span>
+                            <span class="total-page page-total">0</span>
+                        </div>
+                        <div class="right-page modify-page page-click" data-type="next">
+                            <i class="icon-keyboard_arrow_right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- jquery -->
+<script src="/lib/jQuery/jquery.min.js"></script>
+<!-- materialize -->
+<script src="/lib/materialize/js/materialize.min.js"></script>
+<script src="/lib/materialize/js/init.js"></script>
+
+<!-- pagination -->
+<script src="/lib/paginations/pagination.min.js"></script>
+
+<!-- saved -->
+<script src="/lib/js/saved.js"></script>
+
+<!-- util -->
+<script src="/lib/js/codeutilkit.js"></script>
+
+<!-- js wiki -->
+<script src="/js/wiki.js"></script>
+
+<body>
+
+</body>
+
+</html>
