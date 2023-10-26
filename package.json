@@ -17,5 +17,12 @@
   },
   "keywords": [],
   "author": "devlwte",
-  "license": "ISC"
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "webPreferences": {
+    "nodeIntegration": true,
+    "contextIsolation": true
+  }
 }
