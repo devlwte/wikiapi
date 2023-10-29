@@ -359,7 +359,7 @@ saved.addSaved("templateResults", (item, image, lang) => {
                     <div class="icono-art" style="background-image: url('${image}');"></div>
                     <div class="info-name-page">
                         <div class="name-art">${item.title}</div>
-                        <a href="#openurl=https://${lang}.wikipedia.org/wiki/${item.title.replace(/ /g, '_')}" class="url-art">https://${lang}.wikipedia.org/wiki/${item.title.replace(/ /g, '_')}</a>
+                        <a href="https://${lang}.wikipedia.org/wiki/${item.title.replace(/ /g, '_')}" target="_blank" class="url-art">https://${lang}.wikipedia.org/wiki/${item.title.replace(/ /g, '_')}</a>
                     </div>
                 </div>
                 <div class="all-data">
