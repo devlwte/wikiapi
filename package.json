@@ -19,7 +19,8 @@
   "author": "devlwte",
   "license": "MIT",
   "dependencies": {
-    "node-fetch": "^3.3.2"
+    "node-fetch": "^3.3.2",
+    "uuid": "^9.0.1"
   },
   "webPreferences": {
     "nodeIntegration": true,
